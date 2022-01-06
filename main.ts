@@ -1,4 +1,4 @@
-import Forza from '../forza.js';
+import Forza from 'forza.js';
 import { sendTelemetry } from './serial';
 
 const forza = new Forza();

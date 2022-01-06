@@ -1,5 +1,5 @@
 import SerialPort from 'serialport';
-import { Telemetry } from '../forza.js';
+import { Telemetry } from 'forza.js';
 
 const port = new SerialPort(process.env.SERIAL_PORT || 'COM3');
 

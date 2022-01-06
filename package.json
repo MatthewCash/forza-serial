@@ -12,6 +12,7 @@
     "dependencies": {
         "@types/node": "^16.11.17",
         "@types/serialport": "^8.0.2",
+        "forza.js": "github:MatthewCash/forza.js",
         "serialport": "^9.2.8",
         "ts-node": "^10.4.0",
         "typescript": "^4.5.4"
