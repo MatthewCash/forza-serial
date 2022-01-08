@@ -2,9 +2,10 @@
     "name": "forza-serial",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "main.ts",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "ts-node main.ts"
     },
     "keywords": [],
     "author": "Matthew_Cash",
