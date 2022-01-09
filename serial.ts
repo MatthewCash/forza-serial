@@ -3,24 +3,24 @@ import { Telemetry } from 'forza.js';
 
 const port = new SerialPort(process.env.SERIAL_PORT || 'COM3');
 
-const connectedMessage = 'Serial Connected';
-let isConnected = false;
+const readyMessage = 'Serial Connected';
+let isReady = false;
 
 port.on('open', () => {
     console.log('Serial Port Connected!');
 });
 
-const onConnected = () => {
+const onReady = () => {
     console.log('Serial Port Ready!');
 };
 
 port.on('readable', () => {
-    if (!isConnected) return;
-    const data = port.read(connectedMessage.length);
+    if (!isReady) return;
+    const data = port.read(readyMessage.length);
 
-    if (connectedMessage === data?.toString()) {
-        isConnected = true;
-        onConnected();
+    if (data?.toString() === readyMessage) {
+        isReady = true;
+        onReady();
     }
 });
 
