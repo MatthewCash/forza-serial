@@ -1,11 +1,14 @@
 {
     "compilerOptions": {
         "esModuleInterop": true,
-        "lib": ["ES2015"],
-        "target": "es5",
+        "lib": ["esNext"],
+        "target": "es6",
+        "moduleResolution": "node",
+        "module": "commonjs",
         "resolveJsonModule": true,
-        "outDir": "./dist",
-        "allowSyntheticDefaultImports": true,
-        "allowJs": true
+        "strictBindCallApply": true,
+        "strictFunctionTypes": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true
     }
 }
