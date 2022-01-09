@@ -38,10 +38,6 @@ export const sendTelemetry = async (telemetry: Telemetry) => {
         telemetry.gear
     ];
 
-    if (payload.length !== 7) {
-        throw new Error('Invalid payload length, not sending!');
-    }
-
     port.write(payload);
 };
 
