@@ -5,7 +5,7 @@ Compatible with Forza Motorsport 7 and Forza Horizon 4 and 5
 
 A current limitation in the Forza Data Out feature prevents retrieving the car's redline RPM programmatically, instead it must be provided in an environment variable.
 
-Uses the [forza.js](https://github.com/MatthewCash/forza.js) library to retrieve the data
+Uses [forza.js](https://github.com/MatthewCash/forza.js) library to retrieve in-game telemetry
 
 ## Installation
 
