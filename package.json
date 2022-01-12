@@ -1,11 +1,11 @@
 {
     "name": "forza-serial",
     "version": "1.0.0",
-    "description": "",
-    "main": "main.ts",
+    "description": "A simple serial application for sending Forza telemetry data to Arduino",
+    "main": "src/main.ts",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "ts-node main.ts"
+        "start": "ts-node src/main.ts"
     },
     "keywords": [],
     "author": "Matthew_Cash",
