@@ -9,7 +9,7 @@
     },
     "keywords": [],
     "author": "Matthew_Cash",
-    "license": "ISC",
+    "license": "AGPL-3.0-only",
     "dependencies": {
         "@types/node": "^16.11.17",
         "@types/serialport": "^8.0.2",
